@@ -1,0 +1,55 @@
+body {
+background-color: #ffffff;
+color: #757575;
+}
+a {
+    text-decoration: none;
+}
+.header a {
+    color: #212121;   
+}
+.footer a {
+    color: #ffffff;
+}
+
+.logo span {
+    color: #2196F3;
+}
+.nav a:hover {
+    color: #2196F3;
+}
+
+ul {
+    list-style-type: none;
+}
+.header ul, .section ul {    
+    display: flex;
+}
+.header li {
+    padding-right: 50px;
+}
+
+
+
+/*main*/
+.hero {
+    background-color: #2F303A;
+    color:#ffffff;
+}
+.hero button {
+    color:#ffffff;
+    background: #2196F3;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+}
+h2, h3 {
+    color: #212121
+}
+.section li {
+    margin-right: 30px;
+}
+.footer {
+    background-color: #2F303A;
+    color: #ffffff;
+}
